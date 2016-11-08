@@ -12,6 +12,7 @@
 		813FB61C1DD1C15800EB012B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813FB61A1DD1C15800EB012B /* Main.storyboard */; };
 		813FB61E1DD1C15800EB012B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 813FB61D1DD1C15800EB012B /* Assets.xcassets */; };
 		813FB6211DD1C15800EB012B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813FB61F1DD1C15800EB012B /* LaunchScreen.storyboard */; };
+		813FB62A1DD1C2B200EB012B /* CTHelloworldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813FB6291DD1C2B200EB012B /* CTHelloworldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		813FB61D1DD1C15800EB012B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		813FB6201DD1C15800EB012B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		813FB6221DD1C15800EB012B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		813FB6291DD1C2B200EB012B /* CTHelloworldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CTHelloworldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		813FB6151DD1C15800EB012B /* LearnCoreText */ = {
 			isa = PBXGroup;
 			children = (
+				813FB6281DD1C28000EB012B /* helloWorld */,
 				813FB6161DD1C15800EB012B /* AppDelegate.swift */,
 				813FB6181DD1C15800EB012B /* ViewController.swift */,
 				813FB61A1DD1C15800EB012B /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				813FB6221DD1C15800EB012B /* Info.plist */,
 			);
 			path = LearnCoreText;
+			sourceTree = "<group>";
+		};
+		813FB6281DD1C28000EB012B /* helloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				813FB6291DD1C2B200EB012B /* CTHelloworldView.swift */,
+			);
+			name = helloWorld;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				813FB6191DD1C15800EB012B /* ViewController.swift in Sources */,
+				813FB62A1DD1C2B200EB012B /* CTHelloworldView.swift in Sources */,
 				813FB6171DD1C15800EB012B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
